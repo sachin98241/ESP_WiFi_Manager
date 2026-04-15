@@ -87,9 +87,9 @@ Start the WiFi manager. This method:
 
 ## System Flow:
 
-        Power ON
-            │
-            ▼
+   Power ON
+      │
+      ▼
    Load saved WiFi
             │
      ┌──────┴──────┐
