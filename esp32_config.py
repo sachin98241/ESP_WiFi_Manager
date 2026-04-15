@@ -296,5 +296,3 @@ function disconnectWifi() {
 if __name__ == "__main__":
     mgr = ESP32WiFiConfig()
     mgr.start()          
-    time.sleep(10)
-    mgr.clear_wifi()
