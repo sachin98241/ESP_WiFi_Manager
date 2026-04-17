@@ -98,29 +98,26 @@ Start the WiFi manager. This method:
 ## System Flow:
 
 ```text
-Power ON
-|
-▼
-Load saved WiFi
-|
-├──► Connect OK
-│ |
-│ ▼
-│ DONE
-│
-└──► Connect FAIL
-|
-▼
-Start AP Mode
-|
-▼
-Start Web Server
-|
-▼
-User Inputs WiFi
-|
-▼
-Try Connect Again
+   Power ON
+      │
+      ▼
+   Load saved WiFi
+            │
+     ┌──────┴──────┐
+     ▼             ▼
+Connect OK     Connect FAIL
+     │             │
+     ▼             ▼
+  DONE        Start AP Mode
+                   │
+                   ▼
+           Start Web Server
+                   │
+                   ▼
+           User Inputs WiFi
+                   │
+                   ▼
+           Try Connect Again
 ```
 
 ## Modules & Libraries Used
