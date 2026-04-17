@@ -19,7 +19,6 @@ It enables dynamic WiFi configuration via a web portal — similar to how modern
 import mip
 mip.install("github:sachin98241/ESP_WiFi_Manager")
 ```
-
 ### 2. Method 2: As a Python Module (via PyPI)
 ```text
 pip install esp-wifi-manager
