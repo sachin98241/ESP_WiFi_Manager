@@ -1,6 +1,6 @@
 [project]
 name = "esp-wifi-manager"
-version = "0.1.0"
+version = "0.1.1"
 description = "ESP32 WiFi Manager using MicroPython"
 authors = [{name="Sachin", email="sachingurjar98241@gmail.com"}]
 readme = "README.md"
