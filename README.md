@@ -14,7 +14,16 @@ It enables dynamic WiFi configuration via a web portal — similar to how modern
 
 ## Installation
 
-### Manual (Recommended for ESP32)
+### 1. Method 1: Using mip (Recommended for MicroPython)
+```python
+import mip
+mip.install("github:sachin98241/ESP_WiFi_Manager")
+```
+
+### 2. Method 2: As a Python Module (via PyPI)
+pip install esp-wifi-manager
+
+### 3. Method 3: Manual Installation
 1. Flash MicroPython to your ESP32 
 2. Copy `esp32_config.py` to your ESP32
 3. Use your favorite MicroPython IDE (Thonny, VS Code + PyMicroPython, etc.)
